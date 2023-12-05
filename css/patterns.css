@@ -1,14 +1,14 @@
 h1,h2,h3 {
-    color: var(--colors-white);
     font-family: 'Sora', sans-serif;
     font-weight: 600;
     line-height: 125%;
     letter-spacing: -1px;
+    color: var(--colors-white);
 }
 
 h1 {
-    color: var(--colors-gray-100);
     font-size: 4.8rem;
+    color: var(--colors-gray-100);
 }
 
 h2 {
@@ -17,5 +17,25 @@ h2 {
 
 h3 {
     font-size: 2.4rem;
+}
+
+.btn-primary {
+    display: inline-block;
+    padding: 1.2rem 3.4rem;
+    background-color: var(--colors-pink);
+    font-family: 'Sora', sans-serif;
+    font-weight: 600;
+    letter-spacing: -1px;
+    color: var(--colors-gray-100);
+}
+
+.menu-item{
+    display: inline-block;
+    padding: 1.2rem 2.4rem;
+    background-color: var(--colors-gray);
+    font-size: 1.5rem;
+    line-height: 105%;
+    letter-spacing: -1px;
+    color: var(--colors-gray-400);  
 }
 
