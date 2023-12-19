@@ -60,7 +60,6 @@ header .menu-mobile {
     margin-bottom: 2.0rem;
 }
 
-
 .s-hero .text p {
     max-width: 48.8rem;
     margin-bottom: 5.6rem;
@@ -82,5 +81,4 @@ header .menu-mobile {
     max-width: 48.8rem;
     height: 49.6rem;
     background-color: var(--colors-gray-800);
-
 }
