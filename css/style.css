@@ -82,3 +82,76 @@ header .menu-mobile {
     height: 49.6rem;
     background-color: var(--colors-gray-800);
 }
+
+/* Section featured cards */
+
+.s-card-featured {
+    padding: 10.4rem 0rem 12rem 0rem;
+    background-color: var(--colors-gray-100);
+}
+
+.s-card-featured .main-area {
+    padding-bottom: 12.2rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.s-card-featured .title {
+    display: flex;
+    flex-direction: column;
+}
+.s-card-featured .title.center {
+    align-items: center;
+}
+
+.s-card-featured .title p {
+    margin-top: 0.8rem;
+}
+
+.s-card-featured p {
+    color:var(--colors-text);
+}
+
+.s-card-featured .all-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4.8rem;
+}
+
+.s-card-featured .all-cards .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+    max-width:38.4rem;
+    height:38.2rem ;
+    padding-top:6.4rem ;
+    background-color: var(--colors-gray-200);
+}
+
+.s-card-featured .all-cards .card.white {
+    box-shadow: 0px 16px 80px -4px rgba(194, 37, 92, 0.08);
+    background-color: var(--colors-white);
+}
+
+.s-card-featured .all-cards .card.white h3{
+    color:var(--colors-gray-100);
+}
+
+.s-card-featured .all-cards .card.white p{
+    color:var(--colors-gray-300);
+}
+
+.s-card-featured .all-cards .card .info {
+    margin-top: 4rem; 
+    max-width: 28.8rem;
+}
+
+.s-card-featured .all-cards .card .info h3 {
+    text-align: center;
+}
+
+.s-card-featured .all-cards .card .info p {
+    text-align: center;
+    margin-top: 0.8rem;
+    line-height: 150%; 
+}
