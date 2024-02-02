@@ -92,7 +92,6 @@
 }
 
 @media(max-width: 768px) {
-    
 
 }
 
@@ -151,5 +150,8 @@
         width: 49%;
     }
     
+    .s-newsletter {
+        padding: 4rem 0;
+    }
 
 }
