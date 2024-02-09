@@ -1,6 +1,9 @@
 /* Style header */
 
 header {
+    position: fixed;
+    top:0;
+    z-index: 2024;
     display: flex;
     width: 100%;
     height: 8.8rem;
@@ -43,6 +46,7 @@ header .menu-mobile {
 
 .s-hero {
     padding: 7.2rem 0rem;
+    margin: 8.8rem 0 0 0;
 }
 
 .s-hero .container {
@@ -271,7 +275,12 @@ footer main nav {
     font-family: 'Sora', sans-serif; 
     font-size: 1.4rem;
     line-height: 105%;
+    transition: color 0.3s;
     color: var(--colors-text);
+  }
+
+  footer main nav .item ul li a:hover{
+    color: var(--colors-white);
   }
 
   footer main nav .item:last-child ul li a {
